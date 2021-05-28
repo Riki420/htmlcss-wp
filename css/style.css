@@ -45,8 +45,8 @@ header{
     width: 100px;
     border-right: 1px solid black;
     padding-right: 10px;
+    line-height: 75px;
 }
-
 
 /*Menu*/
 
@@ -85,6 +85,8 @@ header{
     height: 600px;
     margin-bottom: 20px;
     border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.8);
+
 }
 
 .main-text{
@@ -134,7 +136,7 @@ h4{
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .size-img-2{
