@@ -27,6 +27,7 @@ body{
 
 img{
     width: 100%;
+    border-radius: 4px;
 }
 
 
@@ -71,33 +72,51 @@ header{
     background-position: center;
     height: 600px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .main-text{
     width: 60%;
-    
+    padding-left: 40px;
+    padding-top: 400px;
+    color: #bababa;
+
 }
 
 
 
 .container{
-    background-color: #0286fa;
+    /* background-color: #0286fa; */
     width: 100%;
     margin-top: 30px;
     height: 600px;
 }
 
 .text-title{
-    background-color: #abcfe7;
+    /* background-color: #abcfe7; */
     height: 80px;
     margin-bottom: 30px;
 }
 
-.sidebar{
-    background-color: #abcfe7;
-    width: 25%;
-    height: 460px;
+.text-title h2, .text-title h3{
+    margin: 4px;
 }
+
+.sidebar{
+    /* background-color: #abcfe7; */
+    width: 25%;
+    /* height: 460px; */
+}
+
+.sidebar h4{
+    margin-bottom: 4px;
+}
+
+.side-img{
+    width: auto;
+    height: 30%;
+}
+
 
 main{
     background-color: #abcfe7;
