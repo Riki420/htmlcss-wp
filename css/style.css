@@ -1,4 +1,4 @@
-*Reset*/
+/*Reset*/
 
 *{
     margin: 0;
@@ -30,6 +30,9 @@ img{
     border-radius: 4px;
 }
 
+li a:hover{
+    color:#808080;
+}
 
 /*Header*/
 
@@ -46,6 +49,8 @@ header{
     padding-right: 10px;
 }
 
+
+/*Menu*/
 
 .menu >ul{
     margin: 20px 0; 
@@ -64,7 +69,11 @@ header{
     color: black;
 }
 
+
 /*Corpo*/
+
+
+/*Sezione 1*/
 
 .box-1{
     background-image: url('../img/banner.jpg');
@@ -84,6 +93,7 @@ header{
 }
 
 
+/*Sezione 2*/
 
 .container{
     width: 100%;
@@ -96,16 +106,22 @@ header{
     margin-bottom: 30px;
 }
 
-.text-title h2, .text-title h3{
+h2, h3{
     margin: 4px;
 }
 
-.sidebar{
-    width: 25%;
+h3{
+    color:#969696;
+}
+h4{
+    margin-bottom: 4px;
 }
 
-.sidebar h4{
-    margin-bottom: 4px;
+
+/*Sidebar*/
+
+.sidebar{
+    width: 25%;
 }
 
 .size-img-1{
@@ -126,6 +142,9 @@ header{
     margin: 0 auto;
 }
 
+
+/*Colonna Centrale*/
+
 .size-img-3{
     background-image: url('../img/banner-2.jpg');
     width: 100%;
@@ -141,10 +160,17 @@ main{
     height: 460px;
 }
 
+
+/*Footer*/
+
 footer{
-    background-color:#8801fe;
     height: 50px;
     margin-top: 30px;
     margin-bottom: 25px;
     text-align: center;
 }
+
+.fa-heart{
+    color:#ff0000;
+}
+
