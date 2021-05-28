@@ -66,10 +66,19 @@ header{
 /*Corpo*/
 
 .box-1{
-    background-color: #e1d67a;
+    background-image: url('../img/banner.jpg');
+    background-size: contain;
+    background-position: center;
     height: 600px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
+.main-text{
+    width: 60%;
+    
+}
+
+
 
 .container{
     background-color: #0286fa;
