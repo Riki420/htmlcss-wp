@@ -144,7 +144,6 @@ h4{
     height: 200px;
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -154,8 +153,8 @@ h4{
     height: 200px;
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
 }
+
 
 
 /*Colonna Centrale*/
@@ -175,10 +174,11 @@ main{
     height: 460px;
 }
 
-.sidebar span, main span{
+.sidebar p, main span{
     color:#969696;
 
 }
+
 
 /*Footer*/
 
